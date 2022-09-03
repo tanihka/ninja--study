@@ -1,0 +1,22 @@
+import "./contact.css"
+import Form from "./Form"
+
+const ContactUs = () => {
+  return (
+    <>
+    <div className="contactUs">
+        <div className="contact-img">
+        <img src={require('./Online world-pana.png')} alt="" />
+        </div>
+
+        <div className="contact-form">
+            <Form/>
+        </div>
+
+    </div>
+    
+    </>
+  )
+}
+
+export default ContactUs

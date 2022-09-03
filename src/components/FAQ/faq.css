@@ -1,0 +1,68 @@
+.contactUs,.hero,.faq, .slider{
+    max-width: 1150px;
+    width: 94%;
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+  }
+.faq-heading {
+    text-align: center;
+    margin: 10px 0;
+    padding-bottom: 2rem;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.faq {
+    display: flex;
+    justify-content: space-between;
+}
+.img{
+    flex-basis: 35%;
+}
+.qna{
+    flex-basis: 50%;
+}
+
+.img img {
+    width: 100%;
+}
+.item{
+    border: 2px solid whitesmoke;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    transition: .5s;
+}
+.item:hover{
+    border-color: #FAC344;
+}
+
+.question{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.question h2{
+    font-size: 16px;
+    font-weight: 600;
+}
+.question span{
+    margin-left: 10px;
+}
+
+.answer{
+    max-height: 0;
+    overflow: hidden;
+    transition: all .5s cubic-bezier(0,1,0,1);
+    font-size: 14px;
+    color: rgb(143, 143, 143);
+
+}
+
+.answer.show{
+    max-height: 9999px;
+    height: auto;
+    transition: all .5s cubic-bezier(1,0,1,0);
+    
+}

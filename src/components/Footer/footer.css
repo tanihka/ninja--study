@@ -1,0 +1,138 @@
+footer {
+    /* background-color: rgb(255, 253, 245); */
+    background-color: #FFFCE2;
+
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1150px !important;
+    width: 94%;
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 55px;
+
+}
+
+.get-started{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width:55vw;
+    border-radius: 6px;
+    /* border: 1px solid whitesmoke; */
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: auto;
+    transform: translateY(35px);
+    background-color: #fff;
+}
+.get-started h3{
+    font-size: .9rem;
+}
+
+.get-started a{
+    padding: 7px 10px;
+    background-color: #FBD92D;
+    border-radius:4px ;
+    font-size: .8rem;
+    transition: .3s;
+}
+.get-started a:hover{
+    transform:translateY(-5px);
+    
+}
+
+.bottom-footer {
+    font-family: 'Poppins', sans-serif;
+    max-width: 1150px !important;
+    width: 94%;
+    margin: auto;
+
+}
+
+.bottom-footer p, .bottom-footer .social-icons{
+    margin-bottom: 1rem;
+}
+
+.company {
+    display: flex;
+    flex-direction: column;
+}
+
+.company a{
+    color: black;
+}
+.company p{
+    font-size: 14px;
+}
+
+.company,
+.social,
+.contact {
+    margin-bottom: 30px;
+}
+
+
+
+hr {
+    /* margin: 15px 0; */
+    height: 1px;
+    border-radius: none;
+}
+
+.bottom-text{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+.bottom-text p a{
+    color: rgb(63, 63, 63);
+}
+
+.footer-heading {
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 7px;
+}
+
+.social-icons {
+    display: flex;
+}
+
+.social-icons i {
+    padding: 8px;
+    /* background-color: #FBD92D; */
+    border: 2px solid rgb(91, 91, 91);
+    margin-right: 5px;
+    color: rgb(49, 49, 49);
+    border-radius: 50px;
+    transition: .3s;
+}
+
+.social-icons i:hover{
+    transform:translateY(-5px);
+}
+
+.contact a {
+    color: rgb(91, 91, 91);
+    transition: .3s;
+    font-size: 14px;
+
+}
+
+.contact a:hover{
+    transform:translateY(-5px);
+
+}
+
+
+@media  (max-width: 800px) {
+    
+  
+    .get-started{
+      max-width: 90vw;
+  
+    }
+  }
