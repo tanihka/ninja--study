@@ -1,4 +1,11 @@
+<<<<<<< HEAD
 .glide{
+=======
+.round{
+    margin-top: -16rem;
+}
+.glider{
+>>>>>>> 2f31a4afced14862f6388b38af7098d16cc3dfc0
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -7,9 +14,23 @@
     margin: auto;
 }
 
+<<<<<<< HEAD
 .glides{
     /* flex-basis: 30%; */
 }
+=======
+
+
+.glide{
+    flex-basis: 50%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 2rem;
+    
+}
+
+>>>>>>> 2f31a4afced14862f6388b38af7098d16cc3dfc0
 .glide video{
     height: 450px;
     margin: 0 35px;
@@ -17,6 +38,7 @@
 
 
 
+<<<<<<< HEAD
 
 
 
@@ -36,12 +58,16 @@
 
 
 @media screen and (max-width: 550px) {
+=======
+@media screen and (max-width: 720px) {
+>>>>>>> 2f31a4afced14862f6388b38af7098d16cc3dfc0
     
-    .slide img{
+    .glide video{
         margin: 0 10px;
     }
     
     
+<<<<<<< HEAD
     .slide i{
         padding: 10px;
         border-radius: 50px;
@@ -51,3 +77,16 @@
         transition: .3s;
     }
 }
+=======
+  
+}
+
+@media screen and (max-width: 1000px) {
+    
+    
+    .round{
+        margin-top: 0;
+    }
+    
+}
+>>>>>>> 2f31a4afced14862f6388b38af7098d16cc3dfc0

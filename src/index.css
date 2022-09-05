@@ -119,7 +119,7 @@ a{
 
 
 @media  (max-width: 730px) {
-  .contactUs,.footer,.hero, .faq,.slider, .bottom-text{
+  .contactUs,.footer,.hero, .faq, .glide, .bottom-text{
     flex-direction: column;
   }
 
