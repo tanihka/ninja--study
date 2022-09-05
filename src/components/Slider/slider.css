@@ -1,3 +1,7 @@
+
+.round{
+    margin-top: -17rem;
+}
 .glide{
     display: flex;
     justify-content: space-between;
@@ -6,10 +10,14 @@
     width: 94%;
     margin: auto;
 }
+.faq-heading{
+    max-width: 1150px;
+    width: 94%;
+    margin: auto;
 
-.glides{
-    /* flex-basis: 30%; */
+
 }
+
 .glide video{
     height: 450px;
     margin: 0 35px;
