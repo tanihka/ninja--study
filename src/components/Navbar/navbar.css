@@ -5,12 +5,20 @@
     align-items: center;
     position: fixed;
     z-index: 9999;
-    background:#fff;
-    padding: .5% 8.2%;
+    background:rgb(255, 255, 255);
+    padding: .5% 0;
     width: 100% ;
 }
 
+.nav-container{
+    max-width: 1150px;
+    width: 94%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
+}
 
 .navbar-links_logo img {
     width: 100%;

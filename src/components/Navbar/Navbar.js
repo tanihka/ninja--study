@@ -9,15 +9,16 @@ const Navbar = () => {
     return (
 
         <div className="navbar">
+            <div className="nav-container">
             <div className="navbar-links_logo">
                 <a href="/"><img src={require('./logo.png')} alt="" /></a>
             </div>
             <div className="navbar-links_container">
                 <p><a href="#home">Home</a></p>
                 <p><a href="#contact">Contact </a> </p>
-      <p className='getStarted'><a href="/">Get Started <i class="fa-solid fa-arrow-right-long"></i> </a></p>
-                
-               
+                <p className='getStarted'><a href="/">Get Started <i class="fa-solid fa-arrow-right-long"></i> </a></p>
+
+
             </div>
             <div className="navbar-menu">
                 {toggleMenu
@@ -33,6 +34,7 @@ const Navbar = () => {
                         </div>
                     </div>
                 )}
+            </div>
             </div>
         </div>
 

@@ -17,22 +17,24 @@ const Hero = () => {
                         </p>
                         </div>
                     </div>
-                    
+
                     <div className='playStoteBtn'>
-                    <a href="https://play.google.com/store/apps/details?id=com.practice.ninja_study&utm_source=Website" target='_blanck' className='playstore'>
-                    <img src={require('../images/playstore-logo.png')} alt="" />
-                    <div><p>GET IT ON</p>
-                    <h3>Google Play</h3>
-                    </div>
-                    </a>
+                        <a href="https://play.google.com/store/apps/details?id=com.practice.ninja_study&utm_source=Website" target='_blanck' className='playstore'>
+                            <img src={require('../images/playstore-logo.png')} alt="" />
+                            <div><p>GET IT ON</p>
+                                <h3>Google Play</h3>
+                            </div>
+                        </a>
                     </div>
 
                     <p className='goodies'>Download it NOW and Get Goodies!</p>
 
                 </div>
                 <div className="image">
-                   <video src={ninjavideo} autoPlay loop muted/>
+                <video src={ninjavideo} autoPlay loop muted />
 
+                    {/* <div className="video">
+                    </div> */}
                 </div>
             </div>
         </>

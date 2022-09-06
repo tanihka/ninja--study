@@ -9,7 +9,6 @@ import public4 from '../../videos/public4.mp4'
 const Slider = () => {
     return (
         <>
-            <div className="round">
             <div className="faq-heading">The New Way to Learn
                 English Speaking 😃</div>
             <div className='glide'>
@@ -25,7 +24,6 @@ const Slider = () => {
                    
                     <video src={public4} autoPlay loop muted/>
                 </div>
-            </div>
             </div>
         </>
     )

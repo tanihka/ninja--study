@@ -1,7 +1,5 @@
 
-.round{
-    margin-top: -17rem;
-}
+
 .glide{
     display: flex;
     justify-content: space-between;
@@ -11,55 +9,16 @@
     margin: auto;
 }
 .faq-heading{
-    max-width: 1150px;
+    max-width: 550px;
     width: 94%;
     margin: auto;
-
-
 }
 
 .glide video{
     height: 450px;
-    margin: 0 35px;
-}
-
-
-
-
-
-
-.point{
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
-}
-
-.sliderContent p{
-    margin-bottom: 30px;
-    color: rgb(131, 131, 131);
-    font-size: 15px;
-}
-
-
-
-
-@media screen and (max-width: 550px) {
+    margin: auto;
     
-    .slide img{
-        margin: 0 10px;
-    }
-    
-    
-    .slide i{
-        padding: 10px;
-        border-radius: 50px;
-        background-color: #FBEFA7;
-        font-size: 16px;
-        cursor: pointer;
-        transition: .3s;
-    }
-
-    .round{
-        margin-top: 0px;
-    }
 }
+
+
+
