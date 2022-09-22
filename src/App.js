@@ -4,6 +4,7 @@ import Footer from './components/Footer/Footer';
 import ContactUs from './components/Contact/ContactUs';
 import Navbar from './components/Navbar/Navbar';
 import Slider from './components/Slider/Slider';
+import Testimonial from './components/Testimonial/Testimonial'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
     <Navbar/>
     <Hero/>
     <Slider/>
+    <Testimonial/>
     <Faq/>
     <div id="contact">
       <ContactUs/>
