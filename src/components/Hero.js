@@ -4,16 +4,18 @@ import ninjavideo from '../images/ninjavideo.mp4'
 const Hero = () => {
     return (
         <>
+         <div className="hero-color">
             <div id="home" className="hero">
                 <div className="content">
-                    <h1>Your Personal English AI Tutor Friend</h1>
+                    <h1> Learn English <br /> Speaking The <br /> Fastest Way</h1>
                     <div className='text'>
-                        <div className="icon"><i class="fa-solid fa-circle"></i></div>
-                        <div className="heading"><p> < span className='bold-heading'>Meet ARYA</span>- Become fluent in English by speaking with her and getting help with grammar, pronunciation, and fluency.</p></div>
+                        <div className="icon"></div>
+                        <div className="heading"><p> Practice English With ARYA - The Smartest A.I. English Tutor</p></div>
                     </div>
                     <div className='text'>
-                        <div className="icon"><i class="fa-solid fa-circle"></i></div>
-                        <div className="heading"><p><span className='cut'>₹200/Month</span > <span className='bold-heading'>Free </span>Limited Time Offer for the first few users
+                        <div className="icon">></div>
+                        <div className="heading"><p><span className='cut'>₹200/Month</span > <span className='bold-heading'>Free* </span> <br /> *Limited Time Offer
+                  for Early Users Only
                         </p>
                         </div>
                     </div>
@@ -37,6 +39,7 @@ const Hero = () => {
                     </div> */}
                 </div>
             </div>
+          </div>
         </>
     )
 }
