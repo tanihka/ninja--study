@@ -22,6 +22,7 @@
   flex-direction: row;
   margin: auto;
   margin-bottom: 1rem;
+  color: whitesmoke;
 }
 .image{
   flex-basis: 40%;
