@@ -14,9 +14,10 @@ const Navbar = () => {
                 <a href="/"><img src={require('./logo.png')} alt="" /></a>
             </div>
             <div className="navbar-links_container">
-                <p><a href="#home">Home</a></p>
+                <p><a href="#home">Faq</a></p>
+                     <p><a href="#home">Features</a></p>
                 <p><a href="#contact">Contact </a> </p>
-                <p className='getStarted'><a href="/">Get Started <i class="fa-solid fa-arrow-right-long"></i> </a></p>
+                <p className='getStarted'><a href="/">Get Started  </a></p>
 
 
             </div>
