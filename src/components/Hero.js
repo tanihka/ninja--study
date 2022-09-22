@@ -29,8 +29,6 @@ const Hero = () => {
                         </a>
                     </div>
 
-                   
-
                 </div>
                 <div className="image">
                 <video src={ninjavideo} autoPlay loop muted />
