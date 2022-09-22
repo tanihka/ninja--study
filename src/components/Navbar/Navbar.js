@@ -30,6 +30,7 @@ const Navbar = () => {
 
                         <div className=" navbar-links_container navbar-menu_container-links-sign">
                             <p><a href="#faq">Faq</a></p>
+                    <p><a href="#features">Features</a></p>
                             <p className='contactBtn'><a href="#contact">Contact</a></p>
                             <p className='getStarted'><a href="/">Get Started <i class="fa-solid fa-arrow-right-long"></i> </a></p>
                         </div>
