@@ -25,7 +25,7 @@ const Hero = () => {
                             <img src={require('../images/playstore-logo.png')} alt="" />
                             <div><p>GET IT ON</p>
                                 <h3>Google Play</h3>
-                            </div>
+                            </div> 
                         </a>
                     </div>
 
