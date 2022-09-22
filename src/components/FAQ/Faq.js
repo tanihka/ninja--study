@@ -12,7 +12,7 @@ const Faq = () => {
 
     return (
         <>
-            <div className="faq-heading">Answers to FAQs ;)</div>
+            <div className="faq-heading" id="faq">Answers to FAQs ;)</div>
             <div className="faq">
             <div className="qna">
                     <QNA/>
