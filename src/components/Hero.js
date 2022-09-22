@@ -29,7 +29,7 @@ const Hero = () => {
                         </a>
                     </div>
 
-                    <p className='goodies'>Download it NOW and Get Goodies!</p>
+                   
 
                 </div>
                 <div className="image">
