@@ -11,7 +11,7 @@ const Navbar = () => {
         <div className="navbar">
             <div className="nav-container">
             <div className="navbar-links_logo">
-                <a href="/"><img src={require('./logo.png')} alt="" /></a>
+                <a href="/"><img src={require('./ninjastudy (1).png')} alt="" /></a>
             </div>
             <div className="navbar-links_container">
                 <p><a href="#faq">Faq</a></p>
