@@ -1,9 +1,6 @@
 import React from "react";
 import "./slider.css";
 import "../../components/Navbar/navbar.css";
-import public1 from "../../videos/public1.mp4";
-import public3 from "../../videos/public3.mp4";
-import public4 from "../../videos/public4.mp4";
 
 const Slider = () => {
   return (
@@ -71,7 +68,7 @@ const Slider = () => {
             </div>
           </div>
           <div>
-          <img src={require('../../videos/arya.gif')} alt="" />
+          <img src={require('../../videos/translate.gif')} alt="" />
             
           </div>
         </div>
