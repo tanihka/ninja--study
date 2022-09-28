@@ -10,9 +10,5 @@ export const Data = [
     {
       question: 'Can I use NinjaStudy for free? ',
       answer: ' Yes, You can use it for Free now. For some limited features, we will launch pricing in future. To know more about it download the app and check help section.'
-    },
-    {
-      question: 'What is NinjaStudy?',
-      answer: 'NinjaStudy is a personal AI English tutor App, focused on improving your speaking skills. You can think of it as Siri/Alexa for English learners.'
     }
   ];
