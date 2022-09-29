@@ -1,8 +1,4 @@
 footer {
-<<<<<<< HEAD
-=======
-    /* background-color: rgb(255, 253, 245); */
->>>>>>> 499db9dd6c34528b07844a89450aee17a8e2bcf7
     background-color: #6263D5;
     color: #fff;
 
@@ -131,31 +127,12 @@ border-radius: 6px;
 
 }
 .office p{
-<<<<<<< HEAD
 height: 78px;
 width: 300px;
 margin-bottom: 10px;
 left: 219px;
 margin-top: 8px;
-=======
-    height: 78px;
-width: 365px;
-left: 219px;
-margin-top: 8px;
-border-radius: nullpx;
->>>>>>> 499db9dd6c34528b07844a89450aee17a8e2bcf7
 font-size: small;
 
 }
 
-<<<<<<< HEAD
-=======
-@media  (max-width: 800px) {
-    
-  
-    .get-started{
-      max-width: 90vw;
-  
-    }
-  }
->>>>>>> 499db9dd6c34528b07844a89450aee17a8e2bcf7
