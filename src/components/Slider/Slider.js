@@ -1,32 +1,113 @@
-import React from 'react'
-import "./slider.css"
-import "../../components/Navbar/navbar.css"
-import public1 from '../../videos/public1.mp4'
-import public3 from '../../videos/public3.mp4'
-import public4 from '../../videos/public4.mp4'
-
+import React from "react";
+import "./slider.css";
+import "../../components/Navbar/navbar.css";
 
 const Slider = () => {
-    return (
-        <>
-            <div className="faq-heading">The New Way to Learn
-                English Speaking 😃</div>
-            <div className='glide'>
-                <div className='glides'>
-                    
-                    <video src={public1} autoPlay loop muted/>
+  return (
+    <>
+      <div className="glide">
+        <div className="glides">
+          <div>
+          <img src={require('../../videos/arya.gif')} alt="" />
+          </div>
+          <div className="glidesname">
+            <h1>
+              Just Start Speaking to <br /> enhance your fluency
+            </h1><br />
+            <p>
+              Fast deployment with our expert support. Boost you revenue. Reduce
+              support <br /> operation by over 30%. Fast development with our
+              expert support
+            </p> <br />
+            <div className="glidepoint">
+               <div className="row1">
+                
+                 <ul type="disc">
+                    <li>tani jihon  ninkj ii</li>
+                    <li>jhhjh</li>
+                </ul>
                 </div>
-                <div className='glides'>
-                  
-                    <video src={public3} autoPlay loop muted/>
+               <div className="row2">
+                
+                 <ul type="disc">
+                    <li>tani</li>
+                    <li>jhhnjjnnk jbj hb jjjh</li>
+                </ul>
                 </div>
-                <div className='glides'>
-                   
-                    <video src={public4} autoPlay loop muted/>
-                </div>
+                
             </div>
-        </>
-    )
-}
+          </div>
+        </div>
+        <div className="glides-no2">
+          
+          <div className="glidesname-no2">
+            <h1>
+              Just Start Speaking to <br /> enhance your fluency
+            </h1><br />
+            <p>
+              Fast deployment with our expert support. Boost you revenue. Reduce
+              support <br /> operation by over 30%. Fast development with our
+              expert support
+            </p> <br />
+            <div className="glidepoint">
+               <div className="row1">
+                
+                 <ul type="disc">
+                    <li>tani jihon  ninkj ii</li>
+                    <li>jhhjh</li>
+                </ul>
+                </div>
+               <div className="row2">
+                
+                 <ul type="disc">
+                    <li>tani</li>
+                    <li>jhhnjjnnk jbj hb jjjh</li>
+                </ul>
+                </div>
+                
+            </div>
+          </div>
+          <div>
+          <img src={require('../../videos/translate.gif')} alt="" />
+            
+          </div>
+        </div>
+        <div className="glides">
+          <div>
+          <img src={require('../../videos/score.gif')} alt="" />
+          </div>
+          <div className="glidesname">
+          <h1>
+              Just Start Speaking to <br /> enhance your fluency
+            </h1><br />
+            <p>
+              Fast deployment with our expert support. Boost you revenue. Reduce
+              support <br /> operation by over 30%. Fast development with our
+              expert support
+            </p> <br />
+            <div className="glidepoint">
+               <div className="row1">
+                
+                 <ul type="disc">
+                    <li>tani jihon  ninkj ii</li>
+                    <li>jhhjh</li>
+                </ul>
+                </div>
+               <div className="row2">
+                
+                 <ul type="disc">
+                    <li>tani</li>
+                    <li>jhhnjjnnk jbj hb jjjh</li>
+                </ul>
+                </div>
+                
+            </div>
+          </div>
+         
+        </div>
+      </div>
+    </>
+  );
+};
 
-export default Slider
+export default Slider;
