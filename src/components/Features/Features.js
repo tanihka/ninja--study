@@ -73,7 +73,7 @@ you NinjaCoins, which can be redeemed into amazing gifts from NinjaStudy.
                 </ul>
                 <ul className="list-item">
                   <li><i class="fa-solid fa-circle"></i> <span>Encouraging consistency</span> </li>
-                  <li><i class="fa-solid fa-circle"></i> <span>Progressive learningk</span> </li>
+                  <li><i class="fa-solid fa-circle"></i> <span>Progressive learning</span> </li>
                 </ul>
                 
               </div>
