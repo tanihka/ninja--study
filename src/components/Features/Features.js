@@ -51,14 +51,14 @@ and you can tap on a word to find out what it means
               </div>
             </div>
             <div className="image">
-              <img src={require('../../videos/arya.gif')} alt="" />
+              <img src={require('../../videos/translate.gif')} alt="" />
             </div>
           </div>
           </div>
 
           <div className="feature1 reverse">
             <div className="image">
-              <img src={require('../../videos/arya.gif')} alt="" />
+              <img src={require('../../videos/score.gif')} alt="" />
             </div>
             <div className="content">
               <h1>Turn your progress <br/>
