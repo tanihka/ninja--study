@@ -14,12 +14,10 @@ const Faq = () => {
         <>
             <div className="faq-heading" id="faq">Frequently Asked Questions</div>
             <div className="faq">
-            <div className="qna">
-                    <QNA/>
-                </div> 
+                <div className="qna">
+                    <QNA />
+                </div>
                 <div className="img"><img src={require('../../images/FAQs-amico.png')} alt="" /></div>
-                
-
             </div>
 
         </>

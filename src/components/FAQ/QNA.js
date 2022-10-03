@@ -13,12 +13,13 @@ const QNA = () => {
     <>
     <div className="accordion">
         {Data.map((item,i)=>(
-            <div className="item">
+            <div className={selected===i? 'item show': 'item'}>
                 <div className="question" onClick={()=>toggle(i)}>
                     <h2>{item.question}</h2>
                     <span>{selected===i? <><i class="fa-solid fa-angle-up"></i></>: <><i class="fa-solid fa-angle-down"></i></> }</span>
                 </div>
                 <div className={selected===i? 'answer show': 'answer' }>
+                    <hr />
                     <p>{item.answer}</p>
                 </div>
             </div>
