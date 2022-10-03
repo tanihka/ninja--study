@@ -7,7 +7,6 @@ const Features = () => {
     <>
 
       <div className="featuresWrap">
-//         <h4>Explore Feature</h4>
        <div className="features">
         <div className="feature1 reverse">
             <div className="image">
