@@ -1,8 +1,8 @@
-/* footer {
+footer {
     background-color: #6263D5;
     color: #fff;
 
-} */
+}
 
 .footer {
     display: flex;
@@ -45,13 +45,13 @@
 }
 
 .company {
-    color: rgb(0, 0, 0);
+    color: #fff;
     display: flex;
     flex-direction: column;
 }
 
 .company a{
-    color: rgb(0, 0, 0);
+    color: white;
 }
 .company p{
     font-size: 14px;
@@ -79,7 +79,7 @@ hr {
 }
 
 .bottom-text p a{
-    color: #000000;
+    color: #F2F2F2;
 }
 
 .footer-heading {
@@ -95,9 +95,9 @@ hr {
 .social-icons i {
     padding: 8px;
     /* background-color: #FBD92D; */
-    border: 2px solid #424242;
+    border: 2px solid #FFFFFF;
     margin-right: 5px;
-    color:#585858;
+    color:#FFFFFF;
     border-radius: 50px;
     transition: .3s;
 }
@@ -107,7 +107,7 @@ hr {
 }
 
 .contact a {
-    color:#000000;
+    color:#FFFFFF;
     transition: .3s;
     font-size: 14px;
 
