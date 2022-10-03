@@ -1,11 +1,8 @@
-footer {
-    background-color: #FFFFFF;
-    color: #333333;
-    font-family: 'Outfit';
- padding-left: 32px;
-    padding-right: 32px;
+/* footer {
+    background-color: #6263D5;
+    color: #fff;
 
-}
+} */
 
 .footer {
     display: flex;
@@ -48,13 +45,13 @@ footer {
 }
 
 .company {
-    color: #333333;
+    color: rgb(0, 0, 0);
     display: flex;
     flex-direction: column;
 }
 
 .company a{
-    color: #333333;
+    color: rgb(0, 0, 0);
 }
 .company p{
     font-size: 14px;
@@ -82,14 +79,13 @@ hr {
 }
 
 .bottom-text p a{
-    color: #333333;
+    color: #000000;
 }
 
 .footer-heading {
     font-size: 18px;
     font-weight: 500;
     padding-bottom: 7px;
-    justify-content: space-around;
 }
 
 .social-icons {
@@ -99,9 +95,9 @@ hr {
 .social-icons i {
     padding: 8px;
     /* background-color: #FBD92D; */
-    border: 2px solid #333333;
+    border: 2px solid #424242;
     margin-right: 5px;
-    color:#333333;
+    color:#585858;
     border-radius: 50px;
     transition: .3s;
 }
@@ -111,7 +107,7 @@ hr {
 }
 
 .contact a {
-    color:#333333;
+    color:#000000;
     transition: .3s;
     font-size: 14px;
 
@@ -139,5 +135,4 @@ margin-top: 8px;
 font-size: small;
 
 }
-
 

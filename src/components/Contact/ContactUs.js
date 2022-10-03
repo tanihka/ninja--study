@@ -4,18 +4,17 @@ import Form from "./Form"
 const ContactUs = () => {
   return (
     <>
-    <div className="parent-contact">
-    <h1>Any Queries? Ask us</h1>
-    <div className="contactUs">
-        <div className="contact-form">
-            <Form/>
-        </div>
+    <div className="contactwrap">
+      <div className="contactUs">
         <div className="contact-img">
         <img src={require('./Online world-pana.png')} alt="" />
         </div>
+        <div className="contact-form">
+            <Form/>
+        </div>
     </div>
-
     </div>
+    
     </>
   )
 }

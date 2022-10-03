@@ -11,9 +11,8 @@ function App() {
     <>
     <Navbar/>
     <Hero/>
-    <div id ='features'>
-    <Features/>  
-    </div>
+    <Features/>
+   <div id ='features'> </div>
     <Testimonial/>
     <div id='faq'>
     <Faq/>
