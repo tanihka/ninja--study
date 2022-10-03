@@ -1,5 +1,4 @@
 import "../index.css";
-// import ninjavideo from "../images/ninjavideo.mp4";
 
 const Hero = () => {
   return (
@@ -46,7 +45,9 @@ const Hero = () => {
 
           </div>
           <div className="image">
-            <img src={require("../videos/home.gif")} alt="" />
+            {/* <video src={home} autoPlay loop muted /> */}
+
+<img src={require("../videos/home.gif")} alt="" />
             {/* <div className="video">
                     </div> */}
           </div>

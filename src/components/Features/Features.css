@@ -6,60 +6,60 @@
 }
 
 .feature1{
-  max-width: 1150px;
-  width: 94%;
   display: flex;
-  flex-wrap: wrap;
-  padding-top: 6rem;
   justify-content: space-between;
-  flex-direction: row;
+  margin-bottom: 5rem;
+  max-width: 1250px;
+  width: 94%;
   margin: auto;
-  margin-bottom: 1rem;
-  padding-bottom: 2rem;
 
 }
 
 .feature2{
   background-color:  #D9D9FF;
   padding: 20px 0;
-  padding-bottom: 2rem;
+  padding-left: 31px;
+  
 }
 
 
 .feature1 .image  img{
-  width: 315.44px;
-  height: 560px;
-
+  width: 330.44px;
+  height: 580px;
+  margin-top: 25px;
+  padding-bottom: 56px;
 }
 
+
 .feature1.content h1{
-  font-size: 40px;
+  font-size: 2rem;
   color: #102437;
 }
 
 .feature1 .content {
-  padding-top: 70px !important;  
-  max-width: 650px;
-  /* background-color: rgb(255, 164, 164); */
+  padding-top: 90px !important;  
 }
 .feature1 .content p{
   color: #7E8091;
   padding: 10px 0;
 
 }
-
-.list .list-item{
+.list{
   display: flex;
   justify-content: space-between;
-  max-width: 400px;
+  max-width: 500px;
+}
+.list .list-item{
+  /* max-width: 300px; */
   margin-bottom: 10px;
 }
 
 .list .list-item li {
   align-items: center;
   display: flex;
+  font-style: normal;
   /* background-color: rgb(246, 158, 209); */
-  justify-content: space-between;
+  /* justify-content: space-between; */
   
 }
 
@@ -77,5 +77,8 @@
   
 }
 
-
+.reverse .image img{
+  padding-left: -100px;
+  margin-right: 100px;
+}
 

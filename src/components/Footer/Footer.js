@@ -40,27 +40,28 @@ const footer = () => {
               </a>
             </div>
           </div>
+         
           <div className="company">
             {" "}
-            <h2 className="footer-heading">About Us</h2>
-            <a href="/">Mission</a>
-            <a href="/">Careers</a>
-            <a href="/">Press</a>
-            <a href="/">Contact Us</a>
-            <a href="/">Investors</a>
+            <h2 className="footer-heading"><strong> Privacy and terms</strong></h2>
+            <a href="/">Community Guidelines</a>
+            <a href="/">Terms</a>
+            <a href="/">Privacy</a>
           </div>
           <div className="company">
             {" "}
-            <h2 className="footer-heading">Help and Support</h2>
+            <h2 className="footer-heading"><strong>Help and Support</strong> </h2>
             <a href="/">FAQs</a>
             <a href="/">Blog</a>
           </div>
           <div className="company">
             {" "}
-            <h2 className="footer-heading">Privacy and terms</h2>
-            <a href="/">Community Guidelines</a>
-            <a href="/">Terms</a>
-            <a href="/">Privacy</a>
+            <h2 className="footer-heading"><strong>About Us</strong> </h2>
+            <a href="/">Mission</a>
+            <a href="/">Careers</a>
+            <a href="/">Press</a>
+            <a href="/">Contact Us</a>
+            <a href="/">Investors</a>
           </div>
           {/* <div className="company"> <h2 className="footer-heading">Socials</h2>
                         <a href="/">Blog</a>

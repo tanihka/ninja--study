@@ -10,30 +10,36 @@
 
 .hero-color{
   background-color: #6263D5;
+  /* height: 743px; */
 }
 
 .hero{
-  max-width: 1150px;
-  width: 94%;
   display: flex;
   flex-wrap: wrap;
   padding-top: 6rem;
+  padding-left: 29px;
   align-items: center;
   justify-content: space-between;
   flex-direction: row;
   margin: auto;
+  /* margin-left: 10%; */
   margin-bottom: 1rem;
   color:  #F2F2F2;
-  padding-bottom: 2rem;
+  height: 743px;
 }
 .image{
-  width: 315.44px;
-  height: 540px;
+  flex-basis: 40%;
+  /* position: relative; */
+  padding: 1rem;
+  text-align: center;
+  margin-left: auto;
 }
+
 .content{
   flex-basis: 30%;
   flex: 1;
-  margin-bottom: 2rem;
+  /* margin-left: 7%; */
+
 }
 .content h1{
   font-size: 3rem;
@@ -42,8 +48,10 @@
 
 
 .image  img{
-  width: 315.44px;
-  height: 540px;
+  width: 325.44px;
+  height: 560px;
+  margin-top: 5px;
+  
 }
 
 .text{
@@ -132,23 +140,19 @@ a{
     flex-direction: column;
   }
   .feature1{
-    flex-direction: column-reverse !important;
-    align-items: center;
-
-  }
-
-  .row textarea{
-    width: 340px !important;
+    flex-direction: column;
   }
 
   .reverse{
-    flex-direction: column !important ;
-    align-items: center;
-
+    flex-direction: column-reverse;
   }
 
-  
+  .get-started{
+    max-width: 90vw;
+
+  }
   .round{
     margin-top: 0;
 }
 }
+
