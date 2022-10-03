@@ -19,7 +19,10 @@ const QNA = () => {
                     <span>{selected===i? <><i class="fa-solid fa-angle-up"></i></>: <><i class="fa-solid fa-angle-down"></i></> }</span>
                 </div>
                 <div className={selected===i? 'answer show': 'answer' }>
+                <hr />  
+                <br />  
                     <p>{item.answer}</p>
+                    <br />
                 </div>
             </div>
         ))}
