@@ -1,6 +1,7 @@
 footer {
     background-color: #FFFFFF;
     color: #333333;
+    font-family: 'Outfit';
 
 }
 
@@ -79,13 +80,14 @@ hr {
 }
 
 .bottom-text p a{
-    color: #F2F2F2;
+    color: #333333;
 }
 
 .footer-heading {
     font-size: 18px;
     font-weight: 500;
     padding-bottom: 7px;
+    justify-content: space-around;
 }
 
 .social-icons {
