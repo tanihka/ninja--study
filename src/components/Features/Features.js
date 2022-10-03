@@ -8,8 +8,9 @@ const Features = () => {
 
       <div className="featuresWrap">
         <h4>Explore Feature</h4>
+        
        <div className="features">
-        <div className="feature1 reverse">
+        <div className="feature1">
             <div className="image">
               <img src={require('../../videos/arya.gif')} alt="" />
             </div>

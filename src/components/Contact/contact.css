@@ -1,3 +1,7 @@
+.contactwrap{
+    width: 100%;
+    background-color: #d9d9ff;
+}
 .contactUs{
     display: flex;
     justify-content: space-between;
@@ -9,13 +13,16 @@
 }
 
 .contact-img img{
+    max-width: 384px;
     width: 100%;
+    max-height: 384px;
+    height: 100%;
 }
 
 .contact-form{
-    flex-basis: 40%;
     padding-top: 5rem;
-    /* border: 2px solid #FBCF69; */
+    max-width: 650px !important;
+    width: 100%;    
     
 }
 
@@ -24,28 +31,37 @@
     flex-direction: column;
 }
 .row{
+    max-width: 650px !important;
+    align-items: center;
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
     width: 100%;
 }
 
-input, textarea{
-    width: auto;
+input{
     height: 40px;
+    padding: 0 0 0 12px;
     margin: 10px 0;
-    padding: 8px 30px 8px 10px;
     outline: none;
     border-radius: 4px;
-    border: 2px solid whitesmoke;
-    background-color: #FCFCFC;
+    border: 2px solid rgb(67, 67, 67);
+    background-color: transparent;
 }
 
-input:focus, textarea:focus{
-    border-color: #FBCF69;
-    
-}
+textarea{
+    padding: 12px 0 0 12px;
+    resize: none;
+    max-width: 500px !important;
+    width: 500px !important;
+    height: 60px;
+    outline: none;
+    border: 2px solid rgb(67, 67, 67);
+    background-color: transparent;
 
+
+
+}
 
 textarea{
     resize: none;
@@ -53,6 +69,9 @@ textarea{
     height: 80px;
 }
 
+input{
+    max-width: 340px !important;
+    width: 100% !important;}
 label{
     font-size: 13px;
 }
@@ -60,16 +79,16 @@ label{
 .btn{
     align-items: center;
     text-align: center;
-    margin-top: 40px;
 }
 
 
 .btn .submitbtn{
     padding: 9px 26px;
-    background: #FBD92D;
+    background: #333333;
+    color: white;
     outline: none;
     border: none;
-    border-radius: 4px;
+    border-radius: 20px;
     cursor: pointer;
     transition: .3s;
 }

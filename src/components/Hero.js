@@ -1,5 +1,5 @@
 import "../index.css";
-import ninjavideo from "../images/ninjavideo.mp4";
+// import ninjavideo from "../images/ninjavideo.mp4";
 
 const Hero = () => {
   return (

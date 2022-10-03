@@ -14,6 +14,9 @@
 }
 
 .hero{
+  max-width: 1150px;
+  width: 94%;
+  padding-bottom: 2rem;
   display: flex;
   flex-wrap: wrap;
   padding-top: 6rem;
@@ -21,21 +24,17 @@
   justify-content: space-between;
   flex-direction: row;
   margin: auto;
-  /* margin-left: 10%; */
   margin-bottom: 1rem;
   color:  #F2F2F2;
 }
 .image{
-  flex-basis: 40%;
-  /* position: relative; */
-  padding: 1rem;
-  text-align: center;
-  margin-left: auto;
+  width: 315.44px;
+  height: 540px;
 }
 
 .content{
-  flex-basis: 30%;
-  flex: 1;
+  margin-bottom: 2rem;
+
   /* margin-left: 7%; */
 
 }
@@ -47,7 +46,7 @@
 
 .image  img{
   width: 315.44px;
-  height: 560px;
+  height: 540px;
   margin-top: 25px;
 }
 
@@ -137,18 +136,17 @@ a{
     flex-direction: column;
   }
   .feature1{
-    flex-direction: column;
+    flex-direction: column-reverse !important;
+    align-items: center;
   }
 
-  .reverse{
-    flex-direction: column-reverse;
+  .row textarea{
+    width: 340px !important;
   }
+  
+    .reverse{
+      flex-direction: column !important ;
+      align-items: center;}
 
-  .get-started{
-    max-width: 90vw;
-
-  }
-  .round{
-    margin-top: 0;
-}
+ 
 }
