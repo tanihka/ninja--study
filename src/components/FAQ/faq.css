@@ -16,7 +16,7 @@
 .faq {
     display: flex;
     justify-content: space-between;
-    
+     padding-left: 29px;
 }
 .img{
     flex-basis: 35%;
