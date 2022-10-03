@@ -1,5 +1,4 @@
 import "../index.css";
-import ninjavideo from "../images/ninjavideo.mp4";
 
 const Hero = () => {
   return (
@@ -59,3 +58,4 @@ const Hero = () => {
 };
 
 export default Hero;
+
