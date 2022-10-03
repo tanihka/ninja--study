@@ -1,21 +1,19 @@
 .Testimonial{
     align-items: center;
     max-width: 1150px;
-    width: 94%;
+    width: 1440px;
     margin: auto;
     padding-bottom: 5%;
-    background-color: #D9D9FF;
+    /* background-color: #D9D9FF; */
 }
-
+.parent{
+  background-color: #D9D9FF;
+}
 .Testimonial h2{
     text-align: center;
     padding: 4% 0%;
     font-size: 30px;
 }
-
-
-
-  
   
   .swiper-wrapper {
     position: relative;
@@ -93,5 +91,8 @@
     color: white;
     font-size: 16px !important;
   }
+  
+  
+
   
   
