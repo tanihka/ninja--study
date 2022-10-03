@@ -1,7 +1,16 @@
 .contactUs{
     display: flex;
     justify-content: space-between;
-    padding-top: 50px;
+    padding-top: 10px;
+   
+}
+.parent-contact h1{
+    text-align: center;
+    padding-top: 64px;
+}
+.parent-contact{
+    background-color:  #D9D9FF;
+    padding-bottom: 80px;
 }
 .contact-img{
     flex-basis: 45%;
@@ -9,7 +18,8 @@
 }
 
 .contact-img img{
-    width: 100%;
+    width: 284px;
+    height: 284px;
 }
 
 .contact-form{
@@ -37,8 +47,8 @@ input, textarea{
     padding: 8px 30px 8px 10px;
     outline: none;
     border-radius: 4px;
-    border: 2px solid whitesmoke;
-    background-color: #FCFCFC;
+    border: 2px solid #4F4F4F;
+    background-color: #D9D9FF;
 }
 
 input:focus, textarea:focus{
@@ -49,8 +59,8 @@ input:focus, textarea:focus{
 
 textarea{
     resize: none;
-    width: auto;
-    height: 80px;
+    width: 400px;
+    height: 60px;
 }
 
 label{
@@ -61,23 +71,32 @@ label{
     align-items: center;
     text-align: center;
     margin-top: 40px;
+    margin-left: 16px;
+   
 }
 
 
 .btn .submitbtn{
     padding: 9px 26px;
-    background: #FBD92D;
+    background: #333333;
     outline: none;
     border: none;
-    border-radius: 4px;
+    border-radius: 19px;
     cursor: pointer;
     transition: .3s;
+    color: #FFFFFF;
 }
 
 
 
 .btn .submitbtn:hover{
     transform: translateY(-5px);
+}
+
+.contact-name-btn{
+    display: flex;
+    max-width: 600px;
+    justify-content: space-between;
 }
 
 
