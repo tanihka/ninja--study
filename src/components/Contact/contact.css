@@ -7,10 +7,7 @@
     justify-content: space-between;
     padding-top: 50px;
 }
-.contact-img{
-    flex-basis: 45%;
 
-}
 
 .contact-img img{
     max-width: 384px;
@@ -58,7 +55,7 @@ textarea{
     outline: none;
     border: 2px solid rgb(67, 67, 67);
     background-color: transparent;
-
+border-radius: 4px;
 
 
 }
@@ -79,11 +76,13 @@ label{
 .btn{
     align-items: center;
     text-align: center;
+    width: 100% !important;
+
 }
 
 
 .btn .submitbtn{
-    padding: 9px 26px;
+    padding: 10px 26px;
     background: #333333;
     color: white;
     outline: none;
@@ -91,13 +90,12 @@ label{
     border-radius: 20px;
     cursor: pointer;
     transition: .3s;
+    font-weight: 600;
+    font-size: 16px;
 }
 
 
 
-.btn .submitbtn:hover{
-    transform: translateY(-5px);
-}
 
 
 

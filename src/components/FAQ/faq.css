@@ -18,11 +18,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 2rem;
+
 
 }
 
 .qna{
-    flex-basis: 60%;
+    flex-basis: 65%;
 }
 
 .img img {
@@ -62,7 +64,8 @@
     max-height: 9999px;
     height: auto;
     transition: all .5s cubic-bezier(1,0,1,0);
-    
+    padding-bottom: 20px;
+
 }
 .answer hr{
     border: none;

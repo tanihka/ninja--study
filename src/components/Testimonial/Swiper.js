@@ -56,8 +56,8 @@ const Swiperr = () => {
             <i class="fa-solid fa-star"></i>
           </div>
           <p>I am using this app, it's really helpful to improve your English and correct your errors same time. Recommended to everyone who is interested to improve their English, thanks</p>
-          <h4>Name</h4>
-          <span>Title</span>
+          <h4>Amit</h4>
+          <span>Student</span>
         </SwiperSlide>
 
         <SwiperSlide className="card">
@@ -70,8 +70,8 @@ const Swiperr = () => {
             <i class="fa-solid fa-star"></i>
           </div>
           <p>I am using this app, it's really helpful to improve your English and correct your errors same time. Recommended to everyone who is interested to improve their English, thanks</p>
-          <h4>Name</h4>
-          <span>Title</span>
+          <h4>Abhinandan</h4>
+          <span>Student</span>
         </SwiperSlide>
 
         <SwiperSlide className="card">
@@ -83,9 +83,14 @@ const Swiperr = () => {
             <i class="fa-solid fa-star"></i>
             <i class="fa-solid fa-star"></i>
           </div>
-          <p>I am using this app, it's really helpful to improve your English and correct your errors same time. Recommended to everyone who is interested to improve their English, thanks</p>
-          <h4>Name</h4>
-          <span>Title</span>
+          <p>Great learning application for every person. <br /> thanks, Ninjastudy
+          <br /></p>
+          <br />     
+<br />
+
+          <br />
+          <h4>Shahla Noor</h4>
+          <span>Student</span>
         </SwiperSlide>
 
         <SwiperSlide className="card">
@@ -97,9 +102,14 @@ const Swiperr = () => {
             <i class="fa-solid fa-star"></i>
             <i class="fa-solid fa-star"></i>
           </div>
-          <p>I am using this app, it's really helpful to improve your English and correct your errors same time. Recommended to everyone who is interested to improve their English, thanks</p>
-          <h4>Name</h4>
-          <span>Title</span>
+          <p>Really good platform to learn English and implement that out. features are also Amazing.
+ <br /> thanks, Ninjastudy
+          <br /></p>
+          <br />     
+<br />
+
+          <h4>Ruhi Tomar</h4>
+          <span>Student</span>
         </SwiperSlide>
 
         <SwiperSlide className="card">
@@ -111,55 +121,10 @@ const Swiperr = () => {
             <i class="fa-solid fa-star"></i>
             <i class="fa-solid fa-star"></i>
           </div>
-          <p>I am using this app, it's really helpful to improve your English and correct your errors same time. Recommended to everyone who is interested to improve their English, thanks</p>
-          <h4>Name</h4>
-          <span>Title</span>
+          <p>it's really helpful to improve your English and correct your errors same time. Recommended to everyone who is interested to improve their English, thanks</p>
+          <h4>Harsh</h4>
+          <span>Student</span>
         </SwiperSlide>
-
-        <SwiperSlide className="card">
-          <img src={require('../../images/user.jpg')} alt="" />
-          <div className="start">
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-          </div>
-          <p>I am using this app, it's really helpful to improve your English and correct your errors same time. Recommended to everyone who is interested to improve their English, thanks</p>
-          <h4>Name</h4>
-          <span>Title</span>
-        </SwiperSlide>
-
-        <SwiperSlide className="card">
-          <img src={require('../../images/user.jpg')} alt="" />
-          <div className="start">
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-          </div>
-          <p>I am using this app, it's really helpful to improve your English and correct your errors same time. Recommended to everyone who is interested to improve their English, thanks</p>
-          <h4>Name</h4>
-          <span>Title</span>
-        </SwiperSlide>
-
-        <SwiperSlide className="card">
-          <img src={require('../../images/user.jpg')} alt="" />
-          <div className="start">
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-          </div>
-          <p>I am using this app, it's really helpful to improve your English and correct your errors same time. Recommended to everyone who is interested to improve their English, thanks</p>
-          <h4>Name</h4>
-          <span>8</span>
-        </SwiperSlide>
-
-
-
 
         
       </Swiper>

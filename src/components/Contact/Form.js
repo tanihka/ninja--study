@@ -21,7 +21,7 @@ const Form = () => {
           <textarea name="message" placeholder='Enter text here' />
           </div>
         <div className="btn">
-          <button className='submitbtn'>Send</button>
+          <button className='submitbtn'>Submit</button>
           </div>
       </div>
     </form>

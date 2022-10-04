@@ -1,22 +1,20 @@
 .testimonials{
-  align-items: center;
-  max-width: 1150px;
+    align-items: center;
     max-width: 1150px;
     width: 94%;
     margin: auto;
-    padding-bottom: 5%;
+    padding-bottom: 3rem;
 }
 .Testimonial{
     align-items: center;
     width: 100%;
     margin: auto;
-    padding-bottom: 5%;
     background-color: #d9d9ff;
 }
 
 .Testimonial h2{
     text-align: center;
-    padding: 4% 0%;
+    padding: 3rem;
     font-size: 30px;
 }
 
@@ -32,20 +30,18 @@
   }
   
   .card {
-    padding: 4rem 3rem;
-    /* box-shadow: 0px 18px 46px rgba(33, 32, 42, 0.08); */
+    padding: 2rem 3rem;
     border-radius: 12px;
     background-color: #fff;
-
-    margin: 2rem 0rem;
+    /* margin: 2rem 0rem; */
   
   }
   
   
   
   .card  img {
-    width: 60px;
-    height: 60px;
+    width: 45px;
+    height: 45px;
     border-radius: 50px;
     filter: drop-shadow(0px 8px 16px rgba(33, 32, 42, 0.1));
   

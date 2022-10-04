@@ -10,13 +10,11 @@
 
 .hero-color{
   background-color: #6263D5;
-  /* height: 743px; */
 }
 
 .hero{
   max-width: 1150px;
   width: 94%;
-  padding-bottom: 2rem;
   display: flex;
   flex-wrap: wrap;
   padding-top: 6rem;
@@ -24,20 +22,15 @@
   justify-content: space-between;
   flex-direction: row;
   margin: auto;
-  margin-bottom: 1rem;
   color:  #F2F2F2;
+  padding-bottom: 2rem;
 }
-.image{
+.hero .image{
   width: 315.44px;
   height: 540px;
 }
 
-.content{
-  margin-bottom: 2rem;
 
-  /* margin-left: 7%; */
-
-}
 .content h1{
   font-size: 3rem;
 }
@@ -47,7 +40,6 @@
 .image  img{
   width: 315.44px;
   height: 540px;
-  margin-top: 25px;
 }
 
 .text{
@@ -103,16 +95,12 @@
   width: auto;
   justify-content: space-between;
   transition: .3s;
+  border: 1px solid white;
 }
 
-.playstore:hover{
-  background-color: #FBD92D;
-  transform:translateY(-5px);
-}
 
 .playstore img{
   width: 30px;
-  /* height: 30px; */
 }
 
 a{
@@ -144,9 +132,29 @@ a{
     width: 340px !important;
   }
   
-    .reverse{
-      flex-direction: column !important ;
-      align-items: center;}
+.reverse{
+  flex-direction: column !important;
+}
+
+    .hero .image, .feature1 .image  {
+     margin-top: 2rem;
+    }
 
  
+}
+
+
+@media  (max-width: 400px) {
+  .list{
+    flex-direction: column;
+  }
+  
+  .list .list-item li{
+    margin-bottom: 4px;
+  }
+
+  .btn .submitbtn{
+    
+    width: 100% !important;
+}
 }

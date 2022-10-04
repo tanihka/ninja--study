@@ -1,8 +1,3 @@
-/* footer {
-    background-color: #6263D5;
-    color: #fff;
-
-} */
 
 .footer {
     display: flex;
@@ -40,10 +35,9 @@
 
 }
 
-.bottom-footer p, .bottom-footer .social-icons{
-    margin-bottom: 1rem;
+.social-icons a{
+    margin-bottom: 2rem;
 }
-
 .company {
     color: rgb(0, 0, 0);
         display: flex;
@@ -65,21 +59,29 @@
 
 
 
-hr {
-    /* margin: 15px 0; */
+.bottom-footer hr {
     height: 1px;
-    border-radius: none;
+    border: none;
+    border-bottom: 1px solid black;
 }
 
 .bottom-text{
     display: flex;
     justify-content: space-between;
-
     padding: 30px 0;
 }
 
-.bottom-text p a{
-    color: #000000;
+.bottom-text a{
+    color: rgb(64, 64, 64);
+}
+
+
+.bottom-text .privacy{
+   max-width: 350px;
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 1rem;
 }
 
 .footer-heading {
@@ -90,6 +92,9 @@ hr {
 
 .social-icons {
     display: flex;
+}
+.rights{
+    text-align: center;
 }
 
 .social-icons i {

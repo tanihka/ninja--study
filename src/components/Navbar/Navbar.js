@@ -14,10 +14,10 @@ const Navbar = () => {
                     <a href="/"><img src={require('./ninjastudy (1).png')} alt="" /></a>
                 </div>
                 <div className="navbar-links_container">
-                    <p><a href="#faq">Faq</a></p>
+                    <p><a href="#faq">FAQ</a></p>
                     <p><a href="#features">Features</a></p>
                     <p><a href="#contact">Contact </a> </p>
-                    <p className='getStarted'><a href="/">Get Started  </a></p>
+                    <p className='getStarted'><a href="/">GET STARTED  </a></p>
 
 
                 </div>
@@ -29,10 +29,10 @@ const Navbar = () => {
                         <div className="navbar-menu_container scale-up-center">
 
                             <div className=" navbar-links_container navbar-menu_container-links-sign">
-                                <p><a href="#faq">Faq</a></p>
+                                <p><a href="#faq">FAQ</a></p>
                                 <p><a href="#features">Features</a></p>
                                 <p className='contactBtn'><a href="#contact">Contact</a></p>
-                                <p className='getStarted'><a href="/">Get Started <i class="fa-solid fa-arrow-right-long"></i> </a></p>
+                                <p className='getStarted'><a href="/">GET STARTED  <i class="fa-solid fa-arrow-right-long"></i> </a></p>
                             </div>
                         </div>
                     )}
