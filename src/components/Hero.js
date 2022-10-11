@@ -10,6 +10,7 @@ const Hero = () => {
             <h1>
               Learn English <br /> Speaking The <br /> Fastest Way
             </h1>
+    <br/>
             <div className="text">
               <div className="icon"></div>
               <div className="heading">
@@ -19,16 +20,16 @@ const Hero = () => {
                 </p>
               </div>
             </div>
-            <div className="text">
-              <div className="icon"></div>
-              <div className="heading">
-                <p>
-                  <span className="cut">₹200/Month</span>{" "}
-                  <span className="bold-heading">Free*</span> <br /> *Limited Time Offer
-                  for Early Users Only
-                </p>
-              </div>
-            </div>
+//             <div className="text">
+//               <div className="icon"></div>
+//               <div className="heading">
+//                 <p>
+//                   <span className="cut">₹200/Month</span>{" "}
+//                   <span className="bold-heading">Free*</span> <br /> *Limited Time Offer
+//                   for Early Users Only
+//                 </p>
+//               </div>
+//             </div>
 
             <div className="playStoteBtn">
               <a
