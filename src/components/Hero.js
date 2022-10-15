@@ -1,5 +1,5 @@
 import "../index.css";
-// import ninjavideo from "../images/ninjavideo.mp4";
+import { BsPlayFill} from "react-icons/bs";
 
 const Hero = () => {
   return (
@@ -21,19 +21,22 @@ const Hero = () => {
               </div>
             </div>
 
-
+            <div className="btn-player-container">
             <div className="playStoteBtn">
               <a
                 href="https://play.google.com/store/apps/details?id=com.practice.ninja_study&utm_source=Website"
                 target="_blanck"
                 className="playstore"
               >
-                <img src={require("../images/playstore-logo.png")} alt="" />
-                <div>
-                  <p>GET IT ON</p>
-                  <h3>Google Play</h3>
-                </div>
+                <img src={require("../images/googleplayyer.png")} alt="" />
+              
               </a>
+            </div>
+            <div className="play-video">
+              <a href="https://youtu.be/eDX-ZXpqJMs" target="blank" className="youtubevideo">
+              <BsPlayFill/> <span>Play Video</span>
+              </a>
+            </div>
             </div>
 
           </div>
