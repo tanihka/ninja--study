@@ -51,7 +51,7 @@
 .heading{
   display: flex;
   align-items: center;
-  margin-top: 4px;
+margin-top: -15px;  
 
 }
 
@@ -71,6 +71,7 @@
 
 .heading p{
   font-size: 15px;
+  height: 27px;
 }
 .goodies{
   font-size: 13px;
@@ -85,34 +86,52 @@
   width: 135px;
   /* height: 20px; */
 }
+.btn-player-container{
+  margin-top: -15px;
+}
 .playstore{
-  padding: 8px 9px;
-  margin-top: 20px;
-  background-color: black;
+  /* padding: 8px 9px; */
+  /* margin-top: 20px; */
+  /* background-color: black; */
   border-radius:3px ;
   display: flex;
   align-items: center;
   width: auto;
   justify-content: space-between;
   transition: .3s;
-  border: 1px solid white;
+  /* border: 1px solid white; */
+}
+.play-video  span{
+  height: 24px;
+  width: 97px;
+  font-size: small;
 }
 
-
 .playstore img{
-  width: 30px;
+  width: 187px;
+  height: 56px;
+  margin-left: -8px;
 }
 
 a{
   text-decoration: none;
   color: white;
 }
-.playstore p{
-  font-size: 9px;
+.play-video{
+  height: 56px;
+  text-align: center;
+  justify-content: center;
+  font-size: small;
+  border: 1px solid transparent;
+  padding: 17px 9px;
+  margin-left: 10px;
+ 
 }
-.playstore h3{
-  font-size: 14px;
-  font-family: 'Times New Roman', Times, serif;
+.btn-player-container{
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  
 }
 
 
@@ -122,6 +141,7 @@ a{
 @media  (max-width: 730px) {
   .contactUs,.footer,.hero, .faq, .glide, .bottom-text{
     flex-direction: column;
+    text-align: center;
   }
   .feature1{
     flex-direction: column-reverse !important;
