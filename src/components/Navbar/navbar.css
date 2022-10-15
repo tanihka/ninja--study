@@ -1,11 +1,12 @@
 
+
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: fixed;
     z-index: 9999;
-    background:rgb(255, 255, 255);
+    background:#6263D5;
     padding: .5% 0;
     width: 100% ;
 }
@@ -37,7 +38,10 @@
     cursor: pointer;
 }
 .navbar-links_container p a{
-    color: rgb(0, 0, 0);
+    color: white;
+}
+.navbar-links_container p .let-go{
+    color: black;
 }
 
 
@@ -76,6 +80,7 @@
 
 .navbar-links_container .getStarted{
     background-color: #FBD92D;
+    color: black;
     padding: 6px 16px;
     border-radius: 4px;
     transition: .3s;
@@ -85,7 +90,9 @@
     transform: translateY(-5px);
 }
 
-
+.getStarted.let-go{
+    color: black;
+}
 
 .navbar-menu_container-links-sign {
     display: none;
@@ -94,7 +101,11 @@
 
 @media screen and (max-width: 720px) {
     .navbar-links_container {
+        
         display: none;
+    }
+    .navbar-links_container p a{
+        color: black;
     }
 
     .navbar-menu {
@@ -125,7 +136,7 @@
     .slide i{
         padding: 10px;
         border-radius: 50px;
-        background-color: #FBEFA7;
+        background-color:#FBEFA7;
         font-size: 16px;
         cursor: pointer;
         transition: .3s;
