@@ -1,5 +1,4 @@
 
-
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -44,7 +43,6 @@
     color: black;
 }
 
-
 .navbar-menu {
     display: none;
     position: relative;
@@ -80,7 +78,7 @@
 
 .navbar-links_container .getStarted{
     background-color: #FBD92D;
-    color: black;
+    
     padding: 6px 16px;
     border-radius: 4px;
     transition: .3s;
@@ -90,9 +88,7 @@
     transform: translateY(-5px);
 }
 
-.getStarted.let-go{
-    color: black;
-}
+
 
 .navbar-menu_container-links-sign {
     display: none;
@@ -101,11 +97,7 @@
 
 @media screen and (max-width: 720px) {
     .navbar-links_container {
-        
         display: none;
-    }
-    .navbar-links_container p a{
-        color: black;
     }
 
     .navbar-menu {
@@ -123,7 +115,9 @@
     .navbar-menu_container {
         top: 20px;
     }
-
+    .navbar-links_container p a{
+        color: black;
+    }
     .navbar-menu_container-links-sign {
         display: block;
     }
@@ -136,7 +130,7 @@
     .slide i{
         padding: 10px;
         border-radius: 50px;
-        background-color:#FBEFA7;
+        background-color: #FBEFA7;
         font-size: 16px;
         cursor: pointer;
         transition: .3s;
