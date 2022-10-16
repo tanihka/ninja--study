@@ -10,7 +10,7 @@ const Hero = () => {
             <h1>
               Learn English <br /> Speaking The <br /> Fastest Way
             </h1>
-    <br/>
+    
             <div className="text">
               <div className="icon"></div>
               <div className="heading">
@@ -21,22 +21,22 @@ const Hero = () => {
               </div>
             </div>
 
-            <div className="btn-player-container">
+
             <div className="playStoteBtn">
+              <div className="playStoteBtn-first">
               <a
                 href="https://play.google.com/store/apps/details?id=com.practice.ninja_study&utm_source=Website"
                 target="_blanck"
                 className="playstore"
               >
                 <img src={require("../images/googleplayyer.png")} alt="" />
-              
               </a>
-            </div>
-            <div className="play-video">
+              </div>
+              <div className="playStoteBtn-second">
               <a href="https://youtu.be/eDX-ZXpqJMs" target="blank" className="youtubevideo">
               <BsPlayFill/> <span>Play Video</span>
               </a>
-            </div>
+              </div>
             </div>
 
           </div>
