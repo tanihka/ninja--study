@@ -6,25 +6,26 @@
     width: 94%;
     margin: auto;
     font-family: 'Poppins', sans-serif;
-    padding-top: 55px;
-
+    padding-top: 20px;
 }
 
-
-.get-started h3{
-    font-size: .9rem;
+.footer .office{
+    max-width: 400px;
+    width: 100%;
 }
 
-.get-started a{
-    padding: 7px 10px;
-    background-color: #FBD92D;
-    border-radius:4px ;
-    font-size: .8rem;
-    transition: .3s;
-}
-.get-started a:hover{
-    transform:translateY(-5px);
-    
+.office p{
+    margin-bottom: 10px;
+    margin-top: 8px;
+    font-size: small;
+    }
+.footer .company{
+    padding-top: 40px;
+}    
+
+
+.office-content{
+    font-size: 15px!important;
 }
 
 .bottom-footer {
@@ -32,7 +33,6 @@
     max-width: 1150px !important;
     width: 94%;
     margin: auto;
-
 }
 
 .social-icons a{
@@ -40,7 +40,7 @@
 }
 .company {
     color: rgb(0, 0, 0);
-        display: flex;
+    display: flex;
     flex-direction: column;
 }
 
@@ -85,21 +85,22 @@
 }
 
 .footer-heading {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
-    padding-bottom: 7px;
+    padding-bottom: 16px;
 }
 
 .social-icons {
     display: flex;
 }
+
+
 .rights{
     text-align: center;
 }
 
 .social-icons i {
     padding: 8px;
-    /* background-color: #FBD92D; */
     border: 2px solid #606060;
     margin-right: 5px;
     color:#606060;
@@ -107,9 +108,30 @@
     transition: .3s;
 }
 
-.social-icons i:hover{
-    transform:translateY(-5px);
+.mobile-icons{
+    display: flex;
+    max-width: 240px;
+    width: 100%;
+    margin: auto;
+    justify-content: space-between;
+    margin-bottom: 20px;
 }
+
+.mobile-icons i {
+    font-size: 22px;
+    margin: auto !important;
+    padding: 10px;
+    border: 2px solid #606060;
+    color:#606060;
+    border-radius: 50px;
+    transition: .3s;
+    align-items: center;
+    text-align: center !important;
+    visibility: hidden;
+    margin: auto ;
+}
+
+
 
 .contact a {
     color:#000000;
@@ -118,26 +140,87 @@
 
 }
 
-.contact a:hover{
-    transform:translateY(-5px);
 
-}
 
 .office img{
-    height: 64px;
+height: 64px;
 width: 151.11109924316406px;
-left: 16px;
-top: 4px;
 border-radius: 6px;
+margin-bottom: 14px;
 
 }
+
+
+
+.second-item{
+    max-width: 450px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.mobile-privacy{
+    visibility: hidden;
+    /* margin-top: 20px; */
+}
+
+
+.mobile-privacy a{
+    color: rgb(43, 43, 43);
+    font-weight: 600;
+    padding-bottom: 10px !important;
+
+}
+
+@media  (max-width: 730px) {
+   .privacy{
+    visibility: hidden;
+    padding: 0px 0;
+
+   }
+
+   .social-icons{
+    visibility: hidden;
+   }
+
+   
+.mobile-icons i {
+    
+    visibility: visible;
+}
+
+.mobile-privacy{
+    visibility: visible;
+}
+
+.third-item{
+    max-width: 450px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .company{
+    padding-top: 0px;
+}
+
+
+.bottom-text .privacy{
+   
+    margin-bottom: -1rem;
+ }
+
+ .footer .office{
+    margin-bottom: -30px;
+}
+
 .office p{
-height: 78px;
-width: 300px;
-margin-bottom: 10px;
-left: 219px;
-margin-top: 8px;
-font-size: small;
-
+    margin-bottom: 0px;
+    
+    }
+.footer .company{
+    padding-top: 00px;
+}  
+ 
 }
-

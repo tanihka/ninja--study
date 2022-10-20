@@ -47,7 +47,7 @@ const Swiperr = () => {
         className="mySwiper"
       >
         <SwiperSlide className="card">
-          <img src={require('../../images/user.jpg')} alt="" />
+          <img src={require('../../images/amit1.jpg')} alt="" />
           <div className="start">
             <i class="fa-solid fa-star"></i>
             <i class="fa-solid fa-star"></i>
@@ -61,7 +61,7 @@ const Swiperr = () => {
         </SwiperSlide>
 
         <SwiperSlide className="card">
-          <img src={require('../../images/user.jpg')} alt="" />
+          <img src={require('../../images/abhinandan.jpg')} alt="" />
           <div className="start">
             <i class="fa-solid fa-star"></i>
             <i class="fa-solid fa-star"></i>
@@ -75,7 +75,7 @@ const Swiperr = () => {
         </SwiperSlide>
 
         <SwiperSlide className="card">
-          <img src={require('../../images/user.jpg')} alt="" />
+          <img src={require('../../images/shahla.jpg')} alt="" />
           <div className="start">
             <i class="fa-solid fa-star"></i>
             <i class="fa-solid fa-star"></i>
@@ -94,7 +94,7 @@ const Swiperr = () => {
         </SwiperSlide>
 
         <SwiperSlide className="card">
-          <img src={require('../../images/user.jpg')} alt="" />
+          <img src={require('../../images/ruhi1.jpg')} alt="" />
           <div className="start">
             <i class="fa-solid fa-star"></i>
             <i class="fa-solid fa-star"></i>
@@ -113,7 +113,7 @@ const Swiperr = () => {
         </SwiperSlide>
 
         <SwiperSlide className="card">
-          <img src={require('../../images/user.jpg')} alt="" />
+          <img src={require('../../images/harsh.jpg')} alt="" />
           <div className="start">
             <i class="fa-solid fa-star"></i>
             <i class="fa-solid fa-star"></i>

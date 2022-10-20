@@ -11,13 +11,13 @@ const Navbar = () => {
         <div className="navbar">
             <div className="nav-container">
                 <div className="navbar-links_logo">
-                    <a href="/"><img src={require('./ninjastudy (1).png')} alt="" /></a>
+                    <a href="/"><img src={require('./ninjastudy_logo.png')} alt="" /></a>
                 </div>
                 <div className="navbar-links_container">
                     <p><a href="#faq">FAQ</a></p>
                     <p><a href="#features">Features</a></p>
                     <p><a href="#contact">Contact </a> </p>
-                    <p className='getStarted'><a href="/">GET STARTED  </a></p>
+                    <p className='getStarted'><a href="/" className='let-go'>GET STARTED  </a></p>
 
 
                 </div>

@@ -1,5 +1,6 @@
 import "../index.css";
-// import ninjavideo from "../images/ninjavideo.mp4";
+import { BsPlayFill} from "react-icons/bs";
+// import Player from "./Player/videoModal";
 
 const Hero = () => {
   return (
@@ -10,6 +11,7 @@ const Hero = () => {
             <h1>
               Learn English <br /> Speaking The <br /> Fastest Way
             </h1>
+    
             <div className="text">
               <div className="icon"></div>
               <div className="heading">
@@ -19,29 +21,24 @@ const Hero = () => {
                 </p>
               </div>
             </div>
-            <div className="text">
-              <div className="icon"></div>
-              <div className="heading">
-                <p>
-                  <span className="cut">₹200/Month</span>{" "}
-                  <span className="bold-heading">Free*</span> <br /> *Limited Time Offer
-                  for Early Users Only
-                </p>
-              </div>
-            </div>
+
 
             <div className="playStoteBtn">
+              <div className="playStoteBtn-first">
               <a
                 href="https://play.google.com/store/apps/details?id=com.practice.ninja_study&utm_source=Website"
                 target="_blanck"
                 className="playstore"
               >
-                <img src={require("../images/playstore-logo.png")} alt="" />
-                <div>
-                  <p>GET IT ON</p>
-                  <h3>Google Play</h3>
-                </div>
+                <img src={require("../images/googleplayyer.png")} alt="" />
               </a>
+              </div>
+              <div className="playStoteBtn-second">
+              <a href="https://youtu.be/eDX-ZXpqJMs" target="blank" className="youtubevideo">
+              <BsPlayFill/> <span className="playStoteBtn-second-botton">Play Video</span>
+              </a>
+              {/* <videoModal/> */}
+              </div>
             </div>
 
           </div>

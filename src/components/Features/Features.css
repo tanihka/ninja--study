@@ -3,7 +3,7 @@
   max-width: 1150px;
   width: 94%;
   display: flex;
-  flex-wrap: wrap;
+/*   flex-wrap: wrap; */
   justify-content: space-between;
   flex-direction: row;
   margin: auto;
@@ -12,7 +12,7 @@
 }
 
 .feature2{
-  background-color:  #D9D9FF;
+  background-color:  #EFEFFB;
 }
 
 
@@ -28,7 +28,7 @@
 }
 
 .feature1 .content {
-  padding-top: 70px !important;  
+  padding-top: 130px !important;  
   max-width: 650px;
 }
 .feature1 .content p{
@@ -62,9 +62,20 @@
   font-size: 16px;
   color: #7E8091;
   margin-left: 6px;
-
   
 }
 
-
  
+
+
+
+@media  (max-width: 730px) {
+  .feature1 .content {
+    padding-top: 0px !important;  
+  }
+
+  .feature1.content h1{
+    font-size: 30px !important;
+  }
+  
+}

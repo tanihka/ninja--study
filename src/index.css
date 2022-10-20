@@ -30,12 +30,9 @@
   height: 540px;
 }
 
-
-.content h1{
+.hero .content h1{
   font-size: 3rem;
 }
-
-
 
 .image  img{
   width: 315.44px;
@@ -52,7 +49,6 @@
   display: flex;
   align-items: center;
   margin-top: 4px;
-
 }
 
 .icon i{
@@ -82,38 +78,38 @@
   margin-left: 5px;
 }
 .playStoteBtn{
-  width: 135px;
-  /* height: 20px; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid transparent;
 }
+.playStoteBtn-second{
+ /* padding-top: 8px; */
+ margin-top: -4px;
+  border: 1px solid transparent;
+}
+
 .playstore{
-  padding: 8px 9px;
-  margin-top: 20px;
-  background-color: black;
-  border-radius:3px ;
   display: flex;
   align-items: center;
   width: auto;
-  justify-content: space-between;
   transition: .3s;
-  border: 1px solid white;
+  /* border: 1px solid white; */
 }
 
 
 .playstore img{
-  width: 30px;
+  width: 187px;
+  height: 66px;
+  margin-left: -10px;
+  margin-top: -10px;
 }
 
 a{
   text-decoration: none;
   color: white;
 }
-.playstore p{
-  font-size: 9px;
-}
-.playstore h3{
-  font-size: 14px;
-  font-family: 'Times New Roman', Times, serif;
-}
+
 
 
 
@@ -126,12 +122,21 @@ a{
   .feature1{
     flex-direction: column-reverse !important;
     align-items: center;
+    text-align: center;
   }
-
+.just-test{
+  display: none;
+}
   .row textarea{
     width: 340px !important;
   }
-  
+  .content{
+    text-align: center;
+  }
+  .playStoteBtn{
+    text-align: center;
+    justify-content: center;
+  }
 .reverse{
   flex-direction: column !important;
 }
@@ -147,10 +152,13 @@ a{
 @media  (max-width: 400px) {
   .list{
     flex-direction: column;
+    align-items: center;
   }
+
   
   .list .list-item li{
     margin-bottom: 4px;
+  
   }
 
   .btn .submitbtn{

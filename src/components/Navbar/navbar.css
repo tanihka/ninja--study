@@ -5,7 +5,7 @@
     align-items: center;
     position: fixed;
     z-index: 9999;
-    background:rgb(255, 255, 255);
+    background:#6263D5;
     padding: .5% 0;
     width: 100% ;
 }
@@ -23,6 +23,7 @@
 .navbar-links_logo img {
     width: 100%;
     height: 55px;
+    /* background-color: #fff; */
     
 }
 
@@ -37,9 +38,11 @@
     cursor: pointer;
 }
 .navbar-links_container p a{
-    color: rgb(0, 0, 0);
+    color: white;
 }
-
+.navbar-links_container p .let-go{
+    color: black;
+}
 
 .navbar-menu {
     display: none;
@@ -76,6 +79,7 @@
 
 .navbar-links_container .getStarted{
     background-color: #FBD92D;
+    
     padding: 6px 16px;
     border-radius: 4px;
     transition: .3s;
@@ -112,7 +116,9 @@
     .navbar-menu_container {
         top: 20px;
     }
-
+    .navbar-links_container p a{
+        color: black;
+    }
     .navbar-menu_container-links-sign {
         display: block;
     }
