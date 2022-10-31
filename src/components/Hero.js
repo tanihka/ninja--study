@@ -9,9 +9,8 @@ const Hero = () => {
         <div id="home" className="hero">
           <div className="content">
             <h1>
-              Learn English <br /> Speaking The <br /> Fastest Way
+              Learn English Speaking The Fastest Way
             </h1>
-    
             <div className="text">
               <div className="icon"></div>
               <div className="heading">

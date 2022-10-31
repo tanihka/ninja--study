@@ -7,16 +7,19 @@
     z-index: 9999;
     background:#6263D5;
     padding: .5% 0;
-    width: 100% ;
+    max-width: 1440px;
+    width: 100%;
 }
 
 .nav-container{
-    max-width: 1150px;
-    width: 94%;
     margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    max-width: 992px;
+    width: 100%;
+    /* background-color: rgb(238, 141, 141); */
+    padding: 0 16px;
 
 }
 
